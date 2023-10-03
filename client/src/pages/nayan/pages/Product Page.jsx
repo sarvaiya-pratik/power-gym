@@ -1,5 +1,5 @@
 // import wave from "../assets/wave.png";
-import banner from "../assets/img1.png";
+// import banner from "../assets/img1.png";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import {
@@ -112,7 +112,7 @@ const ProductPage = () => {
           opacity={{base:"30%", md:"100%"}}
             overflow={"hidden"}
             position={"absolute"}
-            src={banner}
+            // src={banner}
             // src="https://i.ibb.co/94BnTpt/product-2.png"
             w={{ base: "200px", md: "350px", lg: "400px", xl: "600px" }}
             right={0}
@@ -123,7 +123,7 @@ const ProductPage = () => {
         opacity={{base:"30%", md:"100%"}}
             overflow={"hidden"}
             position={"absolute"}
-            src={banner}
+            // src={banner}
             w={{ base: "200px", md: "350px", lg: "400px", xl: "600px" }}
             left={0}
             transform={"scaleX(-1)"}

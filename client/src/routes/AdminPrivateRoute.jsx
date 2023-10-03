@@ -6,11 +6,11 @@ function AdminPrivateAuth({ children }) {
  const { AdminIsAuth } = useSelector((store) => store.auth);
 
 
-  if (!AdminIsAuth) {
-    return (
-      alert("You are redirected for security reason"), (<Navigate to="/" />)
-    );
-  }
+  // if (!AdminIsAuth) {
+  //   return (
+  //     alert("You are redirected for security reason"), (<Navigate to="/" />)
+  //   );
+  // }
 
   return children;
 }
